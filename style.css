@@ -24,12 +24,15 @@ body {
 
 .user {
 font-size: 30px;
+color: #8FACE3;
+font-family: 'Neonderthaw', cursive;
 }
 
 .title{
 text-align: center;
 font-family: 'Neonderthaw', cursive;
 font-size: 40px;
+color: #8FACE3;
 }
 
 .navbar {
@@ -53,7 +56,7 @@ font-size: 40px;
 }
 
 .navbar a:hover {
-  background: #3EA6FF;
+  background: #8FACE3;
   color: #000000;
   border-radius: 5px;
 }
@@ -91,13 +94,13 @@ font-size: 40px;
 }
 
 .navbar a:hover {
-  background: #3EA6FF;
+  background: #8FACE3;
   color: #000000;
   border-radius: 55px;
 }
 
 .navbar a.active {
-  background-color: #3EA6FF;
+  background-color: #8FACE3;
   color: #FFFFFF;
 }
 }
@@ -119,5 +122,5 @@ font-size: 40px;
 }
 
 #myBtn:hover {
-  background-color: #3EA6FF; /* Add a dark-grey background on hover */
+  background-color: #8FACE3; /* Add a dark-grey background on hover */
 }
