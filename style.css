@@ -13,7 +13,9 @@ body {
   color: #FFFFFF;
   background-color: #000000;
 }
-
+img {
+  border-radius: 10px;
+}
 .post {
   text-align: center;
 }
@@ -32,6 +34,7 @@ font-family: 'Neonderthaw', cursive;
 text-align: center;
 font-family: 'Neonderthaw', cursive;
 font-size: 40px;
+text-decoration: none;
 color: #8FACE3;
 }
 
@@ -43,7 +46,9 @@ color: #8FACE3;
   width: 100%;
   margin: 0 0 0 0;
 }
-
+.navbar .active {
+    background-color: #8FACE3;
+}
 .navbar a {
   float: left;
   display: block;
@@ -58,7 +63,7 @@ color: #8FACE3;
 .navbar a:hover {
   background: #8FACE3;
   color: #000000;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .navbar a.active {
@@ -96,12 +101,12 @@ color: #8FACE3;
 .navbar a:hover {
   background: #8FACE3;
   color: #000000;
-  border-radius: 55px;
+  border-radius: 15px;
 }
 
 .navbar a.active {
-  background-color: #8FACE3;
-  color: #FFFFFF;
+  color: #000000;
+  border-radius: 10px;
 }
 }
 
