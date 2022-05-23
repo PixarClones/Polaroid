@@ -18,6 +18,7 @@ img {
 }
 .post {
   text-align: center;
+  font-size: 20px;
 }
 
 .info {
@@ -29,14 +30,22 @@ font-size: 30px;
 color: #8FACE3;
 font-family: 'Neonderthaw', cursive;
 }
-
+.use {
+  font-size: 30px;
+  }
+  
 .title{
 text-align: center;
 font-family: 'Neonderthaw', cursive;
-font-size: 40px;
+font-size: 50px;
 text-decoration: none;
 color: #8FACE3;
 }
+.subtitle 
+  {
+    text-align: center;
+  font-size: 25px;
+  }
 
 .navbar {
   overflow: hidden;
@@ -72,12 +81,23 @@ color: #8FACE3;
 }
 @media screen and (max-width: 450px) {
 
+  .use {
+    font-size: 20px;
+    }
+    
   .title{
   text-align: center;
   font-family: 'Neonderthaw', cursive;
   font-size: 20px;
   }
-
+.post {
+  text-align: center;
+  font-size: 10px;
+}
+  .subtitle {
+    text-align: center;
+  font-size: 15px;
+  }
 .navbar {
   overflow: hidden;
   background-color: #000000;
